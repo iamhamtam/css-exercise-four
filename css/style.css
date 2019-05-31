@@ -3,16 +3,18 @@
 }
 
 body {
-  font-family: system-ui, sans-serif;
-  background-color: #000000;
-  background-image: url("images/london.png")
+  display: block;
+  font-family: sans-serif;
   font-size: 75%;
+  background-color: #D3D3D3;
 }
 
 .container {
+  box-sizing: border-box;
   margin: 0 auto;
   padding: 15px 0 15px 0px;
-  width: 50%;
+  background-color: #D3D3D3;
+
 }
 
 nav {
@@ -24,19 +26,37 @@ nav {
 }
 
 div {
-  float: left;
-  margin: 1% 0;
-  width: 100%;
-  padding: 20px 25px;
+  margin: 10px 0px;
+
 }
 
 h1 {
   font-size: 2.5em;
+  padding: 2%;
   margin: 0;
   font-family: "Times New Roman", Times, serif;
 }
 
 h2 {
   font-family: sans-serif;
-  font-size: 1.8em;
+  font-size: 16px;
+}
+
+.preview-baku {
+  background-image: url("../images/baku.jpg");
+  background-size: 100%;
+
+}
+
+.preview-london {
+  background-image: url("../images/london.png")
+
+}
+
+.preview-madrid {
+  background-image: url("../images/madrid.jpg")
+}
+
+.preview-rome {
+  background-image: url("../images/rome.jpg")
 }
